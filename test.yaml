@@ -8,7 +8,7 @@ metadata:
 spec:
   rules:
     - host: admin.test.co
-      http: &web
+      http:
         paths:
           - path: /
             pathType: Prefix
